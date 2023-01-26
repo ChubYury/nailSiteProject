@@ -1,0 +1,23 @@
+include ../mixins/index
+<!DOCTYPE html>
+html(lang='ru')
+  head
+    include block/head
+    block title
+     
+  body
+    block header
+      
+    block main
+      
+    block footer
+    
+    //- +b.modal-wrapper#modal-wrapper
+    //-   +b.modal.modal-position.--position-2.pos-abs(aria-hidden='true')#formModal
+    //-     +e.overlay(data-micromodal-close)
+    //-     +e.container#innerModal(aria-modal='true') 
+
+    //- block modal 
+    //-   include ./element/modal
+
+  script(type="text/javascript", src='./js/app.min.js')

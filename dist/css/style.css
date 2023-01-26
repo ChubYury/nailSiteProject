@@ -1,0 +1,31 @@
+@font-face {
+  font-family: "lato";
+  font-display: swap;
+  src: url("../fonts/lato.woff2") format("woff2"), url("../fonts/lato.woff") format("woff"), url("../fonts/lato.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Pragmaticashadowc italic";
+  font-display: swap;
+  src: url("../fonts/Pragmaticashadowc italic.woff2") format("woff2"), url("../fonts/Pragmaticashadowc italic.woff") format("woff"), url("../fonts/Pragmaticashadowc italic.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+body {
+  background: rgb(46, 90, 46);
+}
+body h1 {
+  color: red;
+}
+
+@media (max-width: 768px) {
+  h1 {
+    font-size: 20px;
+  }
+}
+@media (max-width: 768px) {
+  body {
+    background: rgb(127, 141, 127);
+  }
+}
