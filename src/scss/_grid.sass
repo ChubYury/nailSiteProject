@@ -1,0 +1,29 @@
+body
+  position: relative
+  color: var(--text-color-base)
+
+.container
+  --container-width: 100%
+  width: var(--container-width)
+  margin: 0 auto
+  padding: 0 15px
+
+@media (min-width: 576px)
+  .container
+    --container-width: var(--mq-size-sm)
+  
+
+@media (min-width: 768px)
+  .container
+    --container-width: var(--mq-size-md)
+
+  
+@media (min-width: 1024px)
+  .container
+    --container-width: var(--mq-size-lg)
+
+ 
+@media (min-width: 1366px)
+  .container
+    --container-width: var(--mq-size-xl)
+  
