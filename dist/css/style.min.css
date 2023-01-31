@@ -477,9 +477,58 @@ textarea {
   --text-color-base: #272727;
 }
 
+.header-wrap {
+  width: 100%;
+  position: fixed;
+  z-index: 10;
+}
+
+.header .navbar_list {
+  display: flex;
+  justify-content: flex-end;
+}
+.header .navbar_item {
+  margin: 0px 10px;
+}
+.header .navbar_link {
+  color: black;
+}
+
+.main-block-wrap {
+  position: relative;
+  width: 100%;
+}
+
+.main-block-bg {
+  width: 100%;
+  height: 100vh;
+}
+.main-block-bg_pic {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.main-block {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.main-block_title {
+  font-size: 50px;
+  text-align: center;
+}
+
 body {
   position: relative;
   color: var(--text-color-base);
+  font-family: open sans condensed, sans-serif;
 }
 
 .container {
