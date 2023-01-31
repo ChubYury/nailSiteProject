@@ -544,6 +544,22 @@ textarea {
   text-transform: uppercase;
 }
 
+.intro {
+  padding: 30px 0;
+}
+.intro_text {
+  margin-bottom: 10px;
+  font-size: 18px;
+  line-height: 28px;
+  text-indent: 20px;
+  text-align: justify;
+}
+.intro_text--end {
+  text-indent: 0px;
+  font-weight: 600;
+  margin-top: 50px;
+}
+
 body {
   position: relative;
   display: flex;
