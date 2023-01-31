@@ -23,10 +23,22 @@ body
   .container
     --container-width: var(--mq-size-sm)
   
+    .work-examples
+      justify-content: space-evenly
+      &_
+        &item
+          width: 230px
+          height: 230px
 
 @media (min-width: 768px)
   .container
     --container-width: var(--mq-size-md)
+
+    .work-examples
+      &_
+        &item
+          width: 290px
+          height: 290px
 
   .main-block
     &_
@@ -45,6 +57,13 @@ body
   .container
     --container-width: var(--mq-size-lg)
 
+    .work-examples
+      &_
+        &item
+          margin: 25px 10px
+          width: 370px
+          height: 370px
+
   .main-block
     &_
       &title
@@ -53,4 +72,11 @@ body
 @media (min-width: 1366px)
   .container
     --container-width: var(--mq-size-xl)
+
+    .work-examples
+      &_
+        &item
+          margin: 45px 10px
+          width: 400px
+          height: 400px
   
