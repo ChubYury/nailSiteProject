@@ -1,0 +1,33 @@
+.main-block-wrap
+  position: relative
+  width: 100%
+
+.main-block-bg
+  width: 100%
+  height: 100vh
+  &_
+    &pic
+      width: 100%
+      height: 100%
+      object-fit: cover
+      object-position: center
+
+.main-block
+  position: absolute
+  width: 100%
+  height: 100%
+  top: 0px
+  display: flex
+  flex-direction: column
+  align-items: center
+  justify-content: center
+  &_
+    &title
+      margin-bottom: 30px
+      color: var(--theme-color-white)
+      font-size: 42px
+      text-align: center
+      font-weight: 900
+      letter-spacing:0.1em
+      line-height:1.1em
+      text-transform: uppercase

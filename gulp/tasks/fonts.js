@@ -33,7 +33,7 @@ export const ttfToWoff = () => {
     .pipe(fonter({
       formats: ['woff']
     }))
-    .pipe(app.gulp.dest(`${app.path.build.fonts}`))
+    .pipe(app.gulp.dest(`${app.path.buildFolder}/fonts/`))
     /************************************************* */
     .pipe(app.gulp.src(`${app.path.srcFolder}/fonts/*.ttf`))
     // Конвертируем в .woff2
