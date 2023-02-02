@@ -38,7 +38,7 @@ function watcher() {
     gulp.watch(path.watch.images, images);
 }
 
-// export { svgSprive }
+
 
 // Обрабока шрифтов 
 const fonts = gulp.series(svgSprive, otfToTtf, ttfToWoff, fontsSttyle);
