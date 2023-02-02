@@ -1,5 +1,14 @@
 footer.footer-wrap
-    .container
-        .footer
-            h1.footer_title Footer
-                a.footer_title.fa-mobile-phone a
+        .footer-bg
+            img.footer-bg_pic(src="@img/main_block_bg_pic.jpg", alt="bg main block")
+        .footer-body
+            .container
+                .footer
+                    h1.soc-icons Тут будуть іконки 
+                    .donat-block
+                        .donat-qr
+                            img.donat-qr_photo(src="@img/QR.png")
+                        form.donat-form(action="https://www.paypal.com/donate" method="post" target="_top")
+                            input(type="hidden" name="hosted_button_id" value="J5T3TZLS8GBB4")
+                            input(type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" border="0" name="submit" title="PayPal - The safer, easier way to pay online!" alt="Donate with PayPal button")
+                            img(alt="" border="0" src="https://www.paypal.com/en_UA/i/scr/pixel.gif" width="1" height="1")

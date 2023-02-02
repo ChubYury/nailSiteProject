@@ -22,14 +22,19 @@ body
 @media (min-width: 576px)
   .container
     --container-width: var(--mq-size-sm)
-  
+
+    .footer
+      flex-direction: row
+      justify-content: space-between
+
     .work-examples
       justify-content: space-evenly
       &_
         &item
           width: 230px
           height: 230px
-
+  .footer-wrap
+    height:200px
 @media (min-width: 768px)
   .container
     --container-width: var(--mq-size-md)
