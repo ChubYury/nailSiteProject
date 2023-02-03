@@ -4,7 +4,13 @@ footer.footer-wrap
         .footer-body
             .container
                 .footer
-                    h1.soc-icons Тут будуть іконки 
+                    .soc-icons 
+                        a.soc-icons_item.icon-box
+                            img.svg-inst-dims(src="./images/icons/icons.svg#inst"  alt="instagram link")
+                        a.soc-icons_item.icon-box
+                            img.svg-pint-dims(src="./images/icons/icons.svg#pint" class="svg-pint-dims" alt="pinterest link")
+                        a.soc-icons_item.icon-box
+                            img.svg-yt-dims(src="./images/icons/icons.svg#yt" class="svg-yt-dims" alt="youtube link")
                     .donat-block
                         .donat-qr
                             img.donat-qr_photo(src="@img/QR.png")

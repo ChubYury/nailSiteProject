@@ -1,6 +1,6 @@
 .footer-wrap
   position: relative
-  height: 260px
+  height: 300px
 
 .footer-bg
   width: 100%
@@ -28,12 +28,21 @@
   padding: 10px 0
 
 .soc-icons
-  border-radius: 50px
-  padding: 10px 30px
+  display: flex
   margin-bottom: 20px
-  border: 1px solid white
-  color: var(--theme-color-white)
-
+  padding: 10px 30px
+  &_
+    &item
+      width: 45px
+      margin: 5px
+      padding: 1px
+      background: var(--theme-color-base)
+      border-radius: 10px
+      cursor: pointer
+      // &:hover
+      //     background: var(--theme-color-secondary)
+      //     padding: 0
+  
 .donat-block
   display: flex
   flex-direction: column
@@ -44,7 +53,7 @@
   height: 100px
   margin-bottom: 20px
   padding: 5px
-  border-radius:5px
+  border-radius: 5px
   background: var(--theme-color-white)
   &_
     &photo
