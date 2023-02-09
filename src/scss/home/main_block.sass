@@ -4,7 +4,7 @@
 
 .main-block-bg
   width: 100%
-  height: 100vh
+  height: 130px
   &_
     &pic
       width: 100%
@@ -16,18 +16,28 @@
   position: absolute
   width: 100%
   height: 100%
+  padding: 3px
   top: 0px
   display: flex
   flex-direction: column
   align-items: center
   justify-content: center
+  color: var(--theme-color-white)
+  text-align: center
   &_
     &title
-      margin-bottom: 30px
-      color: var(--theme-color-white)
-      font-size: 42px
-      text-align: center
-      font-weight: 900
-      letter-spacing:0.1em
-      line-height:1.1em
       text-transform: uppercase
+      margin-bottom: 10px
+      font-size: 22px
+      font-weight: 900
+      text-decoration: underline
+      line-height:1.7em
+      letter-spacing:0.1em
+      &--
+        &no-line-break
+          white-space: nowrap
+    &subtitle
+      font-size: 18px
+      font-weight: 600
+      font-style: italic
+      line-height: 1.2em
