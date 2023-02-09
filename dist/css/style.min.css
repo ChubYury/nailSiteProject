@@ -491,6 +491,7 @@ textarea {
   color: var(--theme-color-white);
   text-align: center;
   transition: 0.3s;
+  cursor: pointer;
 }
 .btn_text {
   color: var(--theme-color-white);
@@ -649,6 +650,9 @@ textarea {
   margin-top: 50px;
   font-style: italic;
   text-indent: 0px;
+}
+.intro .btn {
+  margin: 0 auto;
 }
 
 .work-examples {
